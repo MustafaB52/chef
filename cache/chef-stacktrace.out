@@ -1,0 +1,17 @@
+Generated at 2016-03-09 21:25:13 +0530
+Chef::Exceptions::CookbookNotFound: None of the cookbook paths set in Chef::Config[:cookbook_path], ["C:\\chef\\cookbooks", "C:\\chef\\site-cookbooks"], contain any cookbooks
+C:/opscode/chef/embedded/lib/ruby/gems/2.0.0/gems/chef-12.7.2-universal-mingw32/lib/chef/client.rb:949:in `assert_cookbook_path_not_empty'
+C:/opscode/chef/embedded/lib/ruby/gems/2.0.0/gems/chef-12.7.2-universal-mingw32/lib/chef/client.rb:510:in `setup_run_context'
+C:/opscode/chef/embedded/lib/ruby/gems/2.0.0/gems/chef-12.7.2-universal-mingw32/lib/chef/client.rb:277:in `run'
+C:/opscode/chef/embedded/lib/ruby/gems/2.0.0/gems/chef-12.7.2-universal-mingw32/lib/chef/application.rb:252:in `run_with_graceful_exit_option'
+C:/opscode/chef/embedded/lib/ruby/gems/2.0.0/gems/chef-12.7.2-universal-mingw32/lib/chef/application.rb:228:in `block in run_chef_client'
+C:/opscode/chef/embedded/lib/ruby/gems/2.0.0/gems/chef-12.7.2-universal-mingw32/lib/chef/local_mode.rb:44:in `with_server_connectivity'
+C:/opscode/chef/embedded/lib/ruby/gems/2.0.0/gems/chef-12.7.2-universal-mingw32/lib/chef/application.rb:211:in `run_chef_client'
+C:/opscode/chef/embedded/lib/ruby/gems/2.0.0/gems/chef-12.7.2-universal-mingw32/lib/chef/application/solo.rb:297:in `block in interval_run_chef_client'
+C:/opscode/chef/embedded/lib/ruby/gems/2.0.0/gems/chef-12.7.2-universal-mingw32/lib/chef/application/solo.rb:286:in `loop'
+C:/opscode/chef/embedded/lib/ruby/gems/2.0.0/gems/chef-12.7.2-universal-mingw32/lib/chef/application/solo.rb:286:in `interval_run_chef_client'
+C:/opscode/chef/embedded/lib/ruby/gems/2.0.0/gems/chef-12.7.2-universal-mingw32/lib/chef/application/solo.rb:265:in `run_application'
+C:/opscode/chef/embedded/lib/ruby/gems/2.0.0/gems/chef-12.7.2-universal-mingw32/lib/chef/application.rb:58:in `run'
+C:/opscode/chef/embedded/lib/ruby/gems/2.0.0/gems/chef-12.7.2-universal-mingw32/bin/chef-solo:25:in `<top (required)>'
+C:/opscode/chef/bin/chef-solo:60:in `load'
+C:/opscode/chef/bin/chef-solo:60:in `<main>'
