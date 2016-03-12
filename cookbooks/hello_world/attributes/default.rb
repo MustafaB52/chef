@@ -1,0 +1,1 @@
+default['hello_world']['dir_path']="C:/Test"
